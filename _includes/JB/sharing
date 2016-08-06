@@ -1,8 +1,0 @@
-{% if safe and JB.sharing.provider and page.JB.sharing != false %}
-
-{% case JB.sharing.provider %}
-{% when "custom" %}
-  {% include custom/sharing %}
-{% endcase %}
-
-{% endif %}

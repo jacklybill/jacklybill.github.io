@@ -15,7 +15,7 @@ Usage:
 
   example:
   {% capture text %}|.% for tag in tags_list %.|
-    <li><a href="|.{ site.var.tags_path }.||.{ tag[0] }.|-ref">|.{ tag[0] }.| <span>|.{tag[1].size}.|</span></a></li>
+    <li><a href="|.{ var.tags_path }.||.{ tag[0] }.|-ref">|.{ tag[0] }.| <span>|.{tag[1].size}.|</span></a></li>
   |.% endfor %.|
 
   |.% assign tags_list = null %.|{% endcapture %}    
@@ -24,7 +24,7 @@ Usage:
   As seen here, you must use "|." and ".|" as opening and closing brackets.
 -->{% endcomment%}
 
-{% if site.JB.liquid_raw.provider == "custom" %}
+{% if JB.liquid_raw.provider == "custom" %}
   {% include custom/liquid_raw %}
 {% else %}
   <pre><code>{{text | replace:"|.", "&#123;" | replace:".|", "&#125;" | replace:">", "&gt;" | replace:"<", "&lt;" }}</code></pre>

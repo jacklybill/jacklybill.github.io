@@ -9,7 +9,7 @@
 
 ### Bug Fixes
 
-### Site Enhancements
+###  Enhancements
 
 ### Compatibility updates
   * Update `preview` task

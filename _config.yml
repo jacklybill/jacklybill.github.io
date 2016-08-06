@@ -11,7 +11,7 @@ safe: false
 # so be sure to set them if your theme uses them.
 #
 title : 寂寞先生
-tagline: Site Tagline
+tagline:  Tagline
 author :
   name : 陈佳伟
   email : blah@email.test
@@ -20,7 +20,7 @@ author :
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
-# such as sitemap.txt 
+# such as map.txt 
 # Most places will/should use BASE_PATH to make the urls
 #
 # If you have set a CNAME (pages.github.com) set your custom domain here.
@@ -35,7 +35,7 @@ JB :
   version : 0.3.0
 
   # All links will be namespaced by BASE_PATH if defined.
-  # Links in your website should always be prefixed with {{BASE_PATH}}
+  # Links in your web should always be prefixed with {{BASE_PATH}}
   # however this value will be dynamically changed depending on your deployment situation.
   #
   # CNAME (http://yourcustomdomain.com)
@@ -48,11 +48,11 @@ JB :
   #
   # GitHub Project Pages (http://username.github.io/project-name)
   #
-  #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
+  #   A GitHub Project  exists in the `gh-pages` branch of one of your repositories.
   #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
   #
   # CAUTION:
-  #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
+  #   - When in Localhost, your  will run from root "/" regardless of BASE_PATH
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
@@ -63,7 +63,7 @@ JB :
   #
   # Override this by defining an absolute path to assets here.
   # ex: 
-  #   http://s3.amazonaws.com/yoursite/themes/watermelon
+  #   http://s3.amazonaws.com/your/themes/watermelon
   #   /assets
   #
   ASSET_PATH : False
@@ -86,7 +86,7 @@ JB :
     disqus :
       short_name : jekyllbootstrap
     livefyre :
-      site_id : 123
+      id : 123
     intensedebate :
       account : 123abc
     facebook :
@@ -104,12 +104,12 @@ JB :
     google : 
         tracking_id : 'UA-50637568-1'
     getclicky :
-      site_id : 
+      id : 
     mixpanel :
         token : '_MIXPANEL_TOKEN_'
     piwik :
         baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
+        id : '1'                   # the id of the  on Piwik
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.

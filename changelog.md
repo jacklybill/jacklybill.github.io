@@ -52,7 +52,7 @@ P.S. If there is a standard (popular) changelog format, please let me know.
       the main intent being to make sure theme versions are compatible with the given installer.
 
     - 0.1.2 : @jamesFleeting adds facebook comments support
-    - 0.1.1 : @SegFaultAX adds tagline as site-wide configuration
+    - 0.1.1 : @SegFaultAX adds tagline as -wide configuration
 
 - **0.1.0 : 2012.01.24**   
   First major versioned release.   

@@ -5,7 +5,7 @@ Usage:
   2) include JB/pages_list
   example:
     <ul>
-  	  {% assign pages_list = site.pages %}  
+  	  {% assign pages_list = pages %}  
   	  {% include JB/pages_list %}
   	</ul>
   	
@@ -15,12 +15,12 @@ Usage:
   	meta-data to use this feature.
   	Grouping is mainly helpful for non-post pages.
   	If you want to group posts, it's easier/better to tag them, then pass the tagged posts array.
-  	i.e. site.tags.cool_tag (this returns an array of posts tagged: cool_tag)
+  	i.e. tags.cool_tag (this returns an array of posts tagged: cool_tag)
   	
   This helper can be seen in use at: ../_layouts/default.html
 -->{% endcomment %}
 
-{% if site.JB.pages_list.provider == "custom" %}
+{% if JB.pages_list.provider == "custom" %}
   {% include custom/pages_list %}
 {% else %}
   {% for node in pages_list %}
